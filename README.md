@@ -5,12 +5,12 @@ This repository contains all work completed during the Ford Virtual Work Experie
 
 This repository includes assignments and tasks for implementing a simulated Flask server for sensor data streaming. The codebase demonstrates the following:
 
-Data Recording:
-   - A /record endpoint for collecting sensor data posted by embedded systems in a vehicle.
+**Data Recording:**
+   - A `/record` endpoint for collecting sensor data posted by embedded systems in a vehicle.
    - Data is stored in a Redis database for efficient storage and retrieval.
 
-Data Retrieval:
-   - A /collect endpoint for retrieving the recorded sensor data, intended for user-facing mobile applications.
+**Data Retrieval:**
+   - A `/collect` endpoint for retrieving the recorded sensor data, intended for user-facing mobile applications.
 
 ## Key Features
 
